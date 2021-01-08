@@ -126,11 +126,11 @@ Ahora, quiero minimizar esa diferencia de forma mas eficiente, ¿como lo hago?, 
 
 **Stochastic Gradient Descent(SGD):** Es estocástico porque será aleatorio y tenemos opciones para realizar el gradiente en busca del mínimo.
 
-- ¿Deberíamos calcular el gradiente de todo el dataset?
+- ¿Deberíamos calcular el gradiente de todo el dataset? Si es que tenemos una pequeña cantidad de datos, sí, pero si trabajamos con Big Data, no sería óptimo. Por ello, escogemos una muestra (batch).
 
 - Puede ser más eficiente elegir ejemplos aleatorios.
 
-- Un solo ejemplo es muy poco, trabajamos con un batch.
+- Un solo ejemplo es muy poco, trabajamos con un batch. Un batch es un grupo, una muestra aleatoria de los datos.
 
 #### El proceso de aprendizaje
 
